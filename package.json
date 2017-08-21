@@ -1,5 +1,5 @@
 {
-  "name": "multi-weex-js-framework",
+  "name": "weex-js-framework-packages",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "license": "MIT",
   "devDependencies": {
     "semver": "^5.4.1",
-    "weex-js-framework": "0.21.8"
+    "weex-js-framework": "0.21.9"
   }
 }
