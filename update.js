@@ -37,16 +37,13 @@ if (!fs.existsSync(filePath)) {
 }
 
 exec([
-  `cp node_modules/weex-js-framework/index.js ${filePath}/v${targetVersion}.js`,
-  `cp node_modules/weex-js-framework/index.min.js ${filePath}/v${targetVersion}.min.js`,
+  `cp node_modules/weex-js-framework/index.js ${filePath}/${targetVersion}.js`
 ])
 
 if (isLatest) {
   exec([
     `cp node_modules/weex-js-framework/index.js ${filePath}/index.js`,
-    `cp node_modules/weex-js-framework/index.min.js ${filePath}/index.min.js`,
-    `cp node_modules/weex-js-framework/index.js index.js`,
-    `cp node_modules/weex-js-framework/index.min.js index.min.js`
+    `cp node_modules/weex-js-framework/index.js index.js`
   ])
 }
 
