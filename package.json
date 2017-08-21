@@ -10,6 +10,6 @@
   "license": "MIT",
   "devDependencies": {
     "semver": "^5.4.1",
-    "weex-js-framework": "0.21.9"
+    "weex-js-framework": "0.21.8"
   }
 }
