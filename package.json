@@ -9,7 +9,10 @@
   "author": "Hanks <zhanghan.me@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "semver": "^5.4.1",
     "weex-js-framework": "0.21.9"
+  },
+  "dependencies": {
+    "jsonfile": "^3.0.1",
+    "semver": "^5.4.1"
   }
 }
